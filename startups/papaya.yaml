@@ -1,0 +1,68 @@
+name: Papaya
+tagline: Continuous analysis and optimization for production AI agents
+description: >-
+  Papaya ingests production traces from AI agents, groups recurring behavior and
+  ranks engineering changes that can improve reliability, latency and spend.
+  Teams can review recommendations in its web app and use integrations such as
+  Slack or automated pull requests to ship selected changes.
+problem: >-
+  Agent behavior can shift after model, prompt, tool or context changes, while
+  teams often notice regressions only after manually inspecting production
+  traces.
+audience:
+  - Teams operating AI agents in production
+  - AI platform and application engineers
+website: https://papaya.fyi/
+access:
+  - kind: signup
+    url: https://papaya.fyi/app
+  - kind: contact_sales
+    url: https://papaya.fyi/contact
+categories:
+  - ai-ops
+  - developer-tools
+  - artificial-intelligence
+stage: live
+pricing:
+  model: freemium
+  pricing_url: https://papaya.fyi/pricing
+company:
+  name: Papaya
+  relationship: independent
+location:
+  country: US
+  city: San Francisco
+founded:
+  precision: year
+  value: "2026"
+platforms:
+  - web
+links:
+  - kind: docs
+    url: https://papaya.fyi/docs
+  - kind: social
+    url: https://www.linkedin.com/company/papayaai
+    network: linkedin
+logo:
+  path: logo.png
+  alt: Papaya logo
+sources:
+  - url: https://papaya.fyi/
+    title: Papaya official website
+  - url: https://papaya.fyi/pricing
+    title: Papaya pricing
+  - url: https://www.ycombinator.com/companies/papaya
+    title: Papaya company profile on Y Combinator
+launch:
+  title: Papaya launches continuous optimization for AI agents
+  summary: >-
+    Papaya introduced its production-agent optimization platform, which analyzes
+    traces and recommends changes for quality, latency and cost.
+  occurred_on:
+    precision: day
+    value: "2026-09-16"
+  date_basis: effective
+  source:
+    url: https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents
+    title: "Papaya - Continuous Optimization for your AI agents"
+    locator: Launch YC post published September 16, 2026
