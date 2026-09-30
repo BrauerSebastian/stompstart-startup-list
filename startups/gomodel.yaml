@@ -17,8 +17,7 @@ access:
     url: https://demo.enterpilot.io/admin/dashboard
 categories:
   - developer-tools
-  - infrastructure
-  - artificial-intelligence
+  - ai-and-agents
 stage: live
 pricing:
   model: free
