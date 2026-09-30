@@ -1,0 +1,54 @@
+name: GoModel
+tagline: A self-hosted gateway for routing requests across AI providers
+description: >-
+  GoModel is an open-source AI gateway that exposes OpenAI- and Anthropic-compatible
+  APIs in front of multiple model providers. Teams can run it as a single binary,
+  apply per-request routing and guardrail rules, and track usage, budgets and audit
+  data without putting provider-specific logic into each application.
+problem: AI applications that use several model providers need one place to manage routing, reliability, cost controls and request-level observability.
+audience:
+  - Developers building applications on multiple AI model providers
+  - Platform teams operating shared AI infrastructure
+website: https://gomodel.enterpilot.io/
+access:
+  - kind: browse
+    url: https://gomodel.enterpilot.io/
+  - kind: demo
+    url: https://demo.enterpilot.io/admin/dashboard
+categories:
+  - developer-tools
+  - infrastructure
+  - artificial-intelligence
+stage: live
+pricing:
+  model: free
+platforms:
+  - linux
+  - macos
+  - windows
+links:
+  - kind: docs
+    url: https://gomodel.enterpilot.io/
+  - kind: source
+    url: https://github.com/ENTERPILOT/GoModel
+logo:
+  path: logo.png
+  alt: GoModel logo, a brown outlined hexagon with a circular center and six short radial marks
+sources:
+  - url: https://gomodel.enterpilot.io/
+    title: GoModel official website
+  - url: https://github.com/ENTERPILOT/GoModel
+    title: GoModel source repository
+  - url: https://www.producthunt.com/products/gomodel
+    title: GoModel on Product Hunt
+launch:
+  title: GoModel launches on Product Hunt
+  summary: GoModel launched publicly on Product Hunt as an open-source, self-hosted AI gateway for routing requests across model providers.
+  occurred_on:
+    precision: day
+    value: "2026-09-09"
+  date_basis: effective
+  source:
+    url: https://www.producthunt.com/products/gomodel
+    title: GoModel on Product Hunt
+    locator: Product Hunt launch listing dated September 9, 2026
