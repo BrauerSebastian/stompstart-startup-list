@@ -1,0 +1,52 @@
+name: EasySpecs
+tagline: Spec review and verification for AI-assisted software teams
+description: >-
+  EasySpecs maps an existing codebase into shared technical context, then helps
+  product and engineering teams turn change requests into specifications with
+  machine-checkable validators and review criteria before coding starts.
+problem: AI-assisted development can produce changes faster than teams can review code, while specifications may drift from the system that actually exists.
+audience:
+  - Software engineering teams using coding agents
+  - Technical product managers
+website: https://easyspecs.ai/
+access:
+  - kind: signup
+    url: https://easyspecs.ai/register
+categories:
+  - developer-tools
+  - software-development
+  - saas
+stage: live
+pricing:
+  model: freemium
+  pricing_url: https://easyspecs.ai/pricing
+company:
+  name: EasySpecs
+  relationship: independent
+location:
+  country: ES
+  city: Barcelona
+platforms:
+  - web
+links:
+  - kind: blog
+    url: https://easyspecs.ai/blog
+logo:
+  path: logo.png
+  alt: EasySpecs logo
+sources:
+  - url: https://easyspecs.ai/
+    title: EasySpecs official website
+  - url: https://www.producthunt.com/products/easyspecs-ai
+    title: EasySpecs on Product Hunt
+launch:
+  title: EasySpecs launches on Product Hunt
+  summary: EasySpecs opened its spec review platform to the public.
+  occurred_on:
+    precision: day
+    value: "2026-09-11"
+  date_basis: effective
+  source:
+    url: https://www.hunted.space/product/easyspecs-ai
+    title: EasySpecs Product Hunt launch overview
+    locator: Launch overview stating that EasySpecs was featured on September 11th, 2026
