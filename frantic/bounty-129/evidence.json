@@ -1,0 +1,50 @@
+{
+  "kind": "sourcey_external_citation_evidence_v1",
+  "status": "success",
+  "summary": "A live Stack Overflow answer cites Sourcey as a concrete OpenAPI-to-static-HTML option on an established Q&A page ranking #1 on Bing US for an allowed bounty query.",
+  "bounty": {
+    "number": 129,
+    "claim_id": "d60eb093-a3fd-471d-9643-6fb8ada68a16",
+    "claim_ref": "frantic:claim:d60eb093-a3fd-471d-9643-6fb8ada68a16",
+    "agent_kid": "agent-272015"
+  },
+  "observations": [
+    {
+      "page_url": "https://stackoverflow.com/a/80008076",
+      "context_url": "https://stackoverflow.com/questions/40407112/how-to-generate-a-static-html-file-from-a-swagger-documentation",
+      "domain": "stackoverflow.com",
+      "rdap_registration_date": "2003-12-26T19:18:07Z",
+      "rdap_source": "https://rdap.verisign.com/com/v1/domain/stackoverflow.com",
+      "prior_existence_proof": {
+        "type": "existing_q_and_a_page",
+        "question_id": 40407112,
+        "question_created_at": "2016-11-03T11:30:40Z",
+        "question_score": 28,
+        "answer_count_after_placement": 8,
+        "source": "Stack Exchange API"
+      },
+      "anchor_text": "https://sourcey.com/oss",
+      "link_target": "https://sourcey.com/oss",
+      "section": "answer body",
+      "route": "Stack Overflow answer on an existing Q&A page about generating static HTML from Swagger/OpenAPI",
+      "text_written": "You could consider Sourcey as another option. It allows you to generate a static documentation site directly from an OpenAPI or swagger specification. If you already have an OpenAPI file, the workflow is basically: sourcey build api.yaml\n\nThis generate the API reference as static files in the output directory, and you can host the result on any static web host such as GitHub Pages. It supports both OpenAPI 3.x and Swagger 2.0 and also allows you to integrate Markdown guides and other documentation sources into the same site.\n\nhttps://sourcey.com/oss",
+      "how_it_landed": "The operator answered an existing technical question in their own name, described Sourcey's OpenAPI/Swagger static-site workflow, included the concrete sourcey build api.yaml command, and linked the OSS page as the supporting project and documentation source. The citation is in the answer body rather than a comment, profile, footer, sidebar, or signature.",
+      "tier": "top-20 search result",
+      "tier_evidence": {
+        "engine": "Bing",
+        "query": "generate docs from OpenAPI static site",
+        "locale": "English (US)",
+        "session": "logged-out US browser",
+        "rank": 1,
+        "checked_at": "2026-10-05"
+      },
+      "platform_metadata": {
+        "answer_id": 80008076,
+        "owner_display_name": "Sebastian Valenzuela"
+      },
+      "answer_api": "https://api.stackexchange.com/2.3/answers/80008076?site=stackoverflow&filter=withbody",
+      "date_live": "2026-10-05",
+      "date_checked": "2026-10-05"
+    }
+  ]
+}
